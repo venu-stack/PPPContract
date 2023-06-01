@@ -16,3 +16,11 @@ Work Flow of the smart contract
 10. The contractor completes the contract by ensuring that the completion period has elapsed and the total work completed is at least 100%.
 11. Once the contract is completed and approved by the regulator, the funds are released.
 12. The final project is rated by the customer
+
+
+## Solidity Code for the contract ##
+
+##### UI Pages ##
+Very basic pages for the stahe holders
+
+##Need deploy the contract and integrate the UI using Hardhat
