@@ -1,0 +1,28 @@
+.government {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .input-field {
+    margin: 10px 0;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  

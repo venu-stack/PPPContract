@@ -1,0 +1,28 @@
+.regulator-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.regulator-header {
+    color: #333;
+    text-align: center;
+}
+
+.regulator-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.regulator-button:hover {
+    background-color: white; 
+    color: black; 
+}

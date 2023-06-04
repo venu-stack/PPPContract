@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './User.css'
 
 function User({ state }) {
   const [rating, setRating] = useState(1)
@@ -28,7 +29,7 @@ function User({ state }) {
   }
 
   return (
-    <div>
+    <div className='container'>
       <h1>User</h1>
 
       <input

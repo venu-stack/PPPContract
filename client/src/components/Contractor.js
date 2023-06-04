@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './Contractor.css'
 
 function Contractor({ state }) {
   const [workCompleted, setWorkCompleted] = useState(0)
@@ -26,15 +27,19 @@ function Contractor({ state }) {
   }
 
   return (
-    <div>
+    <div className='contractor-container'>
       <h1>Contractor</h1>
       <input
         type='number'
         value={workCompleted}
         onChange={(e) => setWorkCompleted(e.target.value)}
       />
-      <button onClick={handleSubmitWork}>Submit Work</button>
-      <button onClick={handleCompleteContract}>Complete Contract</button>
+      <button className='contractor-button' onClick={handleSubmitWork}>
+        Submit Work
+      </button>
+      <button className='contractor-button' onClick={handleCompleteContract}>
+        Complete Contract
+      </button>
     </div>
   )
 }

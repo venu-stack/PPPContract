@@ -1,4 +1,5 @@
 import React from 'react'
+import './Regulator.css'
 
 function Regulator({ state }) {
   const { contract } = state
@@ -14,9 +15,11 @@ function Regulator({ state }) {
   }
 
   return (
-    <div>
-      <h1>Regulator</h1>
-      <button onClick={handleInspectWork}>Inspect Work</button>
+    <div className='regulator-container'>
+      <h1 className='regulator-header'>Regulator</h1>
+      <button className='regulator-button' onClick={handleInspectWork}>
+        Inspect Work
+      </button>
     </div>
   )
 }

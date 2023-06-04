@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './Government.css'
 
 function Government({ state }) {
   const [username, setUsername] = useState('')
@@ -50,33 +51,42 @@ function Government({ state }) {
   }
 
   return (
-    <div>
+    <div className='government'>
       <h1>Government</h1>
       <input
+        className='input-field'
         type='text'
         value={username}
         onChange={(e) => setUsername(e.target.value)}
         placeholder='Add User'
       />
-      <button onClick={handleAddUser}>Add User</button>
+      <button className='btn' onClick={handleAddUser}>
+        Add User
+      </button>
 
       <input
+        className='input-field'
         type='text'
         value={contractor}
         onChange={(e) => setContractor(e.target.value)}
         placeholder='Assign Contractor'
       />
-      <button onClick={handleAssignContractor}>Assign Contractor</button>
+      <button className='btn' onClick={handleAssignContractor}>
+        Assign Contractor
+      </button>
 
       <input
+        className='input-field'
         type='text'
         value={regulator}
         onChange={(e) => setRegulator(e.target.value)}
         placeholder='Assign Regulator'
       />
-      <button onClick={handleAssignRegulator}>Assign Regulator</button>
+      <button className='btn' onClick={handleAssignRegulator}>
+        Assign Regulator
+      </button>
 
-      <button onClick={handleReleaseInitialInvestment}>
+      <button className='btn' onClick={handleReleaseInitialInvestment}>
         Release Initial Investment
       </button>
     </div>
