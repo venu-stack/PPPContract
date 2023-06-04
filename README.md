@@ -24,3 +24,6 @@ Work Flow of the smart contract
 Very basic pages for the stahe holders
 
 ##Need deploy the contract and integrate the UI using Hardhat
+
+Index(Landing) Page
+![PPP Contract](assets/landing.png)

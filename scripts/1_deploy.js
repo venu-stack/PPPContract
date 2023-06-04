@@ -10,6 +10,7 @@ async function main() {
   for (let i = 0; i < numApprovers; i++) {
     const wallet = ethers.Wallet.createRandom()
     approvers.push(wallet.address)
+    console.log(approvers)
   }
 
   const multiSigWallet = await MultiSigWallet.deploy(approvers)
